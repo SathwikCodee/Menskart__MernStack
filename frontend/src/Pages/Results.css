@@ -1,0 +1,14 @@
+.results_full_div h1{
+    color: rgb(136, 86, 13);
+    text-decoration: underline 4px orange;
+    margin:3%;
+    display: inline-block;
+}
+
+.results{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    margin: 5%;
+    flex: 4;
+}

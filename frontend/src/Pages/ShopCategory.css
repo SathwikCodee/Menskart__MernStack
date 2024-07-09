@@ -1,0 +1,24 @@
+.shopcategory-products{
+    margin: 100px 100px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+.shopcategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+    margin-bottom: 5%;
+
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.shopcategory{
+    animation: fadeIn 1s;
+}

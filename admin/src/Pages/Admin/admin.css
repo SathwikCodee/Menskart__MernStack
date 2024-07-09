@@ -1,0 +1,10 @@
+.full-admin-page{
+    display: flex;
+}
+
+@media (max-width:800px) {
+    .full-admin-page{
+        display: flex;
+        flex-direction: column;
+    }
+}

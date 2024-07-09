@@ -1,0 +1,242 @@
+.homepagefoot{
+    background-color: rgba(226, 223, 225, 0.9);
+    margin: 0;
+    padding: 5% 3% 3% 3%;
+}
+
+.homepage-footer-section{
+    display: flex; 
+    justify-content: space-between
+}
+.homepage-footer-col1 li{
+    list-style: none;
+    padding: 4%;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+
+}
+.col1-li:hover{
+    background-color: #a67a4b;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 1s;
+    transform: translateX(10px);
+    border-radius: 10px;
+}
+.homepage-footer-col2{
+    list-style: none;
+    max-width: max-content; 
+}
+.homepage-footer-col2 li{
+    padding-bottom: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 15px;
+}
+.homepage-footer-col3 li{
+    list-style: none;
+    max-width: max-content;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+.homepage-footer-col4{
+    max-width: 20%;
+}
+.homepage-footer-col4 li{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom:1%;
+    font-style: italic;
+    font-size: 14px;
+}
+button{
+    border: none;
+    width: 100%;
+    padding: 3%;
+    border-radius: 5px;
+    
+}
+.subs:hover{
+    
+    color:rgb(242, 237, 237);
+    background-color:  #a67a4b;
+    box-shadow: 15px 15px 15px #c6c6c6;
+    cursor: pointer;
+    transition: 1s;
+}
+input{
+    width: 90%;
+    padding: 1%;
+    margin: 4px 0px;
+}
+.footerp{
+    text-align: center;
+    color: #817e7ecd;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+hr{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+@media(max-width:850px){
+    .homepagefoot{
+        padding: 5% 1.4% 2% 1%;
+    }
+    .homepage-footer-col1 li{
+        padding: 2%;
+    }
+
+    .homepage-footer-col2 li{
+        padding-bottom: 2%;
+        font-size: 13px;
+    }
+
+    .homepage-footer-col3 li{
+        font-size: 13px;
+        padding-bottom: 3%;
+    }
+
+    .homepage-footer-col4{
+        max-width: 22%;
+    }
+
+    .homepage-footer-col4 li{
+        font-size: 13px;
+    }
+
+    .footerp{
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:670px){
+
+    .homepage-footer-col1 li{
+        padding: 1%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .homepage-footer-col2 li{
+        padding-bottom: 1.5%;
+        font-size: 11px;
+    }
+
+    .homepage-footer-col3 li{
+        font-size: 11px;
+        padding-bottom: 2%;
+    }
+
+    .homepage-footer-col4{
+        max-width: 20%;
+    }
+    
+    .homepage-footer-col4 li{
+        font-size: 11px;
+    }
+
+    .footerp{
+        font-size: 11px;
+    }
+    input{
+        margin: 3px 0px;
+      
+        font-size: 9px;
+    }
+    button{
+        font-size: 11px;   
+    }
+}
+
+@media(max-width:530px){
+
+    .homepage-footer-col1 li{
+        font-size: 9px;
+    }
+
+    .homepage-footer-col2 li{
+        font-size: 9px;
+    }
+
+    .homepage-footer-col3 li{
+        font-size: 9px;
+    }   
+    .homepage-footer-col4 li{
+        font-size: 9px;
+    }
+
+    .footerp{
+        font-size: 9px;
+    }
+    input{
+        margin: 3px 0px;
+      
+        font-size: 7px;
+    }
+    button{
+        font-size: 10px;   
+    }
+}
+
+@media(max-width:400px){
+
+    .homepage-footer-col1 li{
+        font-size: 5px;
+    }
+
+    .homepage-footer-col2 li{
+        font-size: 5px;
+    }
+
+    .homepage-footer-col3 li{
+        font-size: 5px;
+    }   
+    .homepage-footer-col4 li{
+        font-size: 5px;
+    }
+
+    .footerp{
+        font-size: 5px;
+    }
+    input{
+        margin: 1px;
+        font-size: 4px;
+    }
+    button{
+        font-size: 5px;   
+    }
+}
+@media(max-width:260px){
+
+    .homepage-footer-col1 li{
+        font-size: 4px;
+    }
+
+    .homepage-footer-col2 li{
+        font-size: 4px;
+    }
+
+    .homepage-footer-col3 li{
+        font-size: 4px;
+    }   
+    .homepage-footer-col4 li{
+        font-size: 4px;
+    }
+
+    .footerp{
+        font-size: 4px;
+    }
+    input{
+        margin: 1px 0px;
+        font-size: 4px;
+    }
+    button{
+        font-size: 5px;   
+    }
+}
